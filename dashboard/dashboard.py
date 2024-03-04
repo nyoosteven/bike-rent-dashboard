@@ -83,10 +83,10 @@ plt.tight_layout()
 st.pyplot(plt)
 
 
-st.subheader('Korelasi pada setiap kolom')
-plt.figure(figsize=(12,8))
-sns.heatmap(hour_df.corr(), annot=True)
-st.pyplot(plt)
+# st.subheader('Korelasi pada setiap kolom')
+# plt.figure(figsize=(12,8))
+# sns.heatmap(hour_df.corr(), annot=True)
+# st.pyplot(plt)
 
 st.subheader('Distribusi Rental Sepeda per Jam')
 plt.figure(figsize=(12,6))
